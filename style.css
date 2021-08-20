@@ -1,0 +1,51 @@
+.table {
+  background-color: #ffe08a;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+#leaderboard #cryptocurrencies tr {
+  margin-top: 50px;
+  display: block;
+  clear: both;
+  position: absolute;
+  transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+}
+.table thead th {
+  color: #946c08;
+}
+
+.table tbody {
+  background-color: #fff;
+  color: cadetblue;
+}
+.rank {
+  width: 60px;
+}
+
+.name {
+  width: 200px;
+}
+.symbol {
+  width: 80px;
+  text-transform: uppercase;
+}
+.price {
+  width: 100px;
+}
+.market_cap {
+  width: 150px;
+}
+.circulating_supply {
+  width: 170px;
+}
+.volume_24h {
+  width: 140px;
+}
+.percentage_change {
+  width: 100px;
+}
